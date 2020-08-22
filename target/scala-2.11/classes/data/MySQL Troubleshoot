@@ -1,0 +1,13 @@
+mysql --user=root --password=Temp1234 mysql
+
+update user set password=OLD_PASSWORD('Temp1234') WHERE user='root';
+
+CREATE USER 'test1234'@'localhost' IDENTIFIED BY 'Temp1234';
+
+GRANT ALL PRIVILEGES ON *.* TO 'test1234'@'localhost' WITH GRANT OPTION;
+
+CREATE USER 'test1234'@'%' IDENTIFIED BY 'Temp1234';
+
+GRANT ALL PRIVILEGES ON *.* TO 'test1234'@'%' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES;

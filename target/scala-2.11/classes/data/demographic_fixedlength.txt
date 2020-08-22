@@ -1,0 +1,4 @@
+10118true SwitzerlandMtrue true 1
+10219true SwitzerlandFtrue false1
+10322true SwitzerlandMtrue false2
+10418true SwitzerlandFtrue false2

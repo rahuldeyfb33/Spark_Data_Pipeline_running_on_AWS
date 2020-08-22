@@ -1,0 +1,3 @@
+id~has_debt~has_financial_dependents~has_student_loans~income
+101~false~true~true~60000
+102~true~true~false~50000

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.databricks:spark-redshift_2.11:3.0.0-preview1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.databricks/spark-redshift_2.11/jars/spark-redshift_2.11-3.0.0-preview1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.databricks/spark-redshift_2.11/srcs/spark-redshift_2.11-3.0.0-preview1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
